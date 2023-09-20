@@ -1,0 +1,49 @@
+{
+  "builder_name": "face3w",
+  "citation": "TODO",
+  "config_name": "default",
+  "dataset_name": "face3w",
+  "dataset_size": 7739382,
+  "description": "facess-s-s-s--s-s- vslidate if adapter traning process is valid",
+  "download_checksums": {},
+  "download_size": 0,
+  "features": {
+    "image": {
+      "_type": "Image"
+    },
+    "conditioning_image": {
+      "_type": "Image"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "image_caption": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "TODO",
+  "license": "TODO",
+  "size_in_bytes": 7739382,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 1100,
+      "num_examples": 6,
+      "dataset_name": "face3w"
+    },
+    "train": {
+      "name": "train",
+      "num_bytes": 7738282,
+      "num_examples": 42228,
+      "dataset_name": "face3w"
+    }
+  },
+  "version": {
+    "version_str": "0.0.2",
+    "major": 0,
+    "minor": 0,
+    "patch": 2
+  }
+}
