@@ -1380,6 +1380,7 @@ if __name__ == "__main__":
         lr_num_cycles=1,
         lr_power=1.0,
         lr_scheduler='cosine',
+        # lr_scheduler='linear',
         scale_lr=False,
         max_grad_norm=1.0,
         resolution=768,
@@ -1430,7 +1431,7 @@ if __name__ == "__main__":
         
         seed=40,
         
-        tracker_project_name='sd_xl_train_controlnet',
+        tracker_project_name='sd_xl_controlnet_reference',
         use_8bit_adam=False,
         # use_8bit_adam=True,
         # validation_image=['./test_data/conditioning_image_1.png', './test_data/conditioning_image_2.png'],
